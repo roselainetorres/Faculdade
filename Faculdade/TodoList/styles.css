@@ -1,0 +1,145 @@
+body 
+{
+    background-color: #FFFCF4;
+    background-image:url('imagem/backgroundpage.png');
+    background-size: 30%;
+    background-position: center; 
+}
+
+h1 
+{
+    color:black;
+}
+
+input 
+{
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px; 
+    background-color: #f4f4f4; 
+    color:black;
+    font-size: 16px;
+}
+
+input:focus 
+{
+    border-color: #000000; 
+    box-shadow: 0 0 20px #000000;
+}
+
+ul 
+{
+    list-style-type:none;
+    padding: 0;
+}
+
+li 
+{
+    display: inline-block;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    font-size: 20px;
+    display: block;
+}
+
+li.completa 
+{
+    text-decoration: line-through;
+    color: green;
+    text-shadow: 0 0 5px #76ff05;
+}
+
+button 
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    height: 30px;
+    color: #4b4b4b;
+    background-color: transparent;
+    border: 1px solid #4b4b4b;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button.btConcluir
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #4b4b4b;
+    background-color: transparent;
+    border: 1px solid #4b4b4b;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover
+{
+    color: #FFFCF4;
+    background-color: #4b4b4b;
+    border: 1px solid #4b4b4b;
+    border-radius: 5px;
+}
+button:hover.btConcluir
+{
+    color: #009c2f;
+    background-color: #FFFCF4;
+    border: 1px solid #009c2f;
+    border-radius: 5px;
+    text-shadow: 0px 0px 5px #00db42;
+}
+
+.container
+{
+    float: left;
+    margin-left: 35%;
+    width: 800px;
+    height: 1100px;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    background-image:url('imagem/background.png');
+    background-size: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cabecalho
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    float: left;
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    text-align: center;
+}
+.entrada
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    float: left;
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+.conteudo
+{
+    float: left;
+    width: 100%;
+    height: 800px;
+    padding-top: 20px;
+    padding-left: 70px
+
+}
+.rodape
+{
+    float: left;
+    width: 100%;
+    height: 100px;
+    padding: 0px 100px;
+}
